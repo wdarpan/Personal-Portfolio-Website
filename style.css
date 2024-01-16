@@ -1,0 +1,97 @@
+/* navbar  */
+
+/* Hero section  */
+.hero{
+  background-color: #ff0000;
+}
+.hero-img img {
+  margin-top: 8rem;
+}
+.hero-text {
+  margin-top: 10rem;
+}
+.hero-text span {
+  color: greenyellow;
+  font-family: italic;
+  margin: 0rem 0rem;
+}
+.hero-text h1 {
+  font-weight: 600;
+  color: blue;
+  margin-top: 1rem;
+}
+.hero-text p {
+  width: 21rem;
+  margin-top: 2rem;
+}
+.button-section button {
+  border: 1px solid rgb(53, 255, 3);
+  border-radius: 3rem;
+  width: 7rem;
+  height: 3rem;
+  margin-top: 1rem;
+}
+.button-section button:hover {
+  background-color: hsl(36, 100%, 50%);
+}
+.button-section span {
+  font-size: 1.4rem;
+  margin: 1rem 1rem;
+}
+.button-section i {
+  padding: 3px 3px;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.button-section i:hover {
+  color: green;
+  background-color: greenyellow;
+}
+/* Service bar  */
+
+.card {
+  width: 23rem;
+  height: 23rem;
+}
+.card-img {
+  font-size: 3rem;
+}
+.card-title {
+  color: blue;
+}
+.card-text {
+  margin: 1.5rem;
+}
+
+/* Contact us  */
+
+.icons i{
+  color: #3B0A9A;
+}
+.text span{
+  font-weight: 700;
+}
+.form-head-text h2{
+  font-weight: 500;
+  color: #3B0A9A;
+}
+.input-list{
+margin: 0.2rem ;
+}
+btn{
+ background-color: #f70000;
+ color: #f70000;
+}
+/* footer  */
+footer{
+background-color: #3B0A9A;;
+height: 3rem;
+}
+.head-text h5{
+  color: white;
+}
+.icons i{
+  color: white;
+  margin: 0.5rem;
+}
