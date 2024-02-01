@@ -1,0 +1,63 @@
+/* root  */
+:root {
+  --main-text-color: #1d1d1d;
+  --second-text-color: #696969;
+  --green-color: #55e655;
+  --backgroud-color: #f1f3f5;
+  --font-family: "Sora", sans-serif;
+  --font-weight: 400;
+}
+/* navigation  */
+.navbar {
+  background-color: var(--backgroud-color);
+}
+.navbar-nav li a {
+  font: var(--font-family);
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin: 1px 16px;
+}
+.icon-start {
+  border-left: 1px solid rgb(0, 0, 0);
+  height: 65px;
+  width: 1px;
+  margin: 0px 23px;
+  margin-top: 0;
+  opacity: 1.5;
+}
+.icon-end {
+  border-left: 1px solid rgb(0, 0, 0);
+  height: 65px;
+  width: 1px;
+  margin-top: 0;
+  margin: 0px 23px;
+  opacity: 0.3;
+}
+/* slider  */
+.carousel-item {
+  background-color: black;
+}
+.carousel-item img {
+  opacity: 0.3;
+}
+.carousel-caption {
+  margin-bottom: 300px;
+}
+.carousel-item i {
+  color: #fff;
+}
+.line-start {
+  border-left: 1px solid rgb(241, 0, 0);
+  height: 650px;
+  width: 1px;
+}
+
+.carousel-caption span i {
+  font-family: var(--font-family);
+  margin-right: 13px;
+  letter-spacing: 5px;
+}
+.carousel-caption h1{
+  font-weight: 600;
+  font-family: var(--font-family);
+}
