@@ -1,0 +1,27 @@
+@media screen and (max-width: 1249px) {
+    .carousel-caption {
+        margin-bottom: 30px;
+
+    }
+
+    .carousel-caption span {
+        font-size: 8px
+    }
+
+    .carousel-caption h1 {
+        font-size: 15px
+    }
+
+    .carousel-caption .btn {
+        width: 140px;
+        height: 35px;
+    }
+
+
+.card{
+    margin: 21px 2px;
+}
+
+
+
+}
