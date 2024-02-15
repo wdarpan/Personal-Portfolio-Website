@@ -1,0 +1,408 @@
+/* root  */
+:root {
+  --main-text-color: #1d1d1d;
+  --second-text-color: #696969;
+  --green-color: #55e655;
+  --backgroud-color: #f1f3f5;
+  --font-family: "Sora", sans-serif;
+  --font-weight: 400;
+}
+
+/* navigation  */
+
+.navbar {
+  background-color: var(--backgroud-color);
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+.navbar-collapse{
+  align-items: normal;
+}
+.navbar-nav li a {
+  font: var(--font-family);
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin: 1px 16px;
+  color: #000;
+}
+.navbar-nav li a:hover{
+  color: #1d1d1d;
+}
+.icon-start {
+  border-left: 1px solid rgb(0, 0, 0);
+  height: 65px;
+  width: 1px;
+  margin: 0px 23px;
+  opacity: 0.3;
+}
+
+.icon-end {
+  border-left: 1px solid rgb(0, 0, 0);
+  height: 65px;
+  width: 1px;
+  margin-top: 0;
+  margin: 0px 23px;
+  opacity: 0.3;
+}
+
+/* slider  */
+
+.carousel {
+  background-color: var(--backgroud-color);
+}
+.carousel-item {
+  background-color: black;
+}
+
+.carousel-item img {
+  opacity: 0.3;
+}
+
+.carousel-caption {
+  margin-bottom: 320px;
+}
+
+.carousel-item i {
+  color: #fff;
+}
+
+.line-start {
+  border-left: 1px solid rgb(241, 0, 0);
+  height: 650px;
+  width: 1px;
+}
+
+.carousel-caption i {
+  margin-right: 13px;
+}
+
+.carousel-caption span {
+  font-family: var(--font-family);
+  letter-spacing: 3px;
+  font-size: 13px;
+}
+
+.carousel-caption h1 {
+  font-weight: 750;
+  font-size: 60px;
+  margin-top: 25px;
+}
+
+.btn button {
+  font-family: var(--font-family);
+  margin-top: 27px;
+  background: var(--green-color);
+  width: 12rem;
+  height: 3rem;
+}
+
+.btn button i {
+  color: #1d1d1d;
+  margin: 4px 3px;
+}
+
+
+
+/* card area */
+.service-box {
+  padding: 110px 23px;
+}
+.card-text {
+  font-family: var(--font-family);
+}
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--backgroud-color);
+}
+.card-link {
+  color: black;
+}
+
+
+/* about area  */
+.service {
+  background-color: var(--backgroud-color);
+}
+.about-head h2{
+  margin-bottom: 120px;
+}
+.about-head .btn {
+  border: 1px solid black;
+  border-radius: 30px;
+  font-size: 10px;
+  width: 186px;
+  height: 35px;
+}
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: var(--green-color);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 3px 13px;
+}
+.about-head h2 {
+  font-weight: 700;
+  font-family: var(--font-family);
+}
+/* card  */
+.card-body i {
+  font-size: 20px;
+}
+.about-images img {
+  width: 400px;
+  height: auto;
+}
+
+.about-company {
+  margin-top: 120px;
+}
+.about-text{
+  margin-top: 80px;
+}
+.about-text span {
+  font-family: var(--font-family);
+  letter-spacing: 5px;
+}
+.about-text button {
+  font-family: var(--font-family);
+  border: 1px solid black;
+  border-radius: 23px;
+  color: black;
+  opacity: 0.7;
+  margin-top: 5px;
+  width: 148px;
+  height: 45px;
+  background: var(--backgroud-color);
+}
+.about-text button:hover {
+  background-color: #000;
+  transition: 0.3s ease;
+  color: #fff;
+}
+.about-text h3 {
+  font-weight: 700;
+}
+.about-text p {
+  font-family: var(--font-family);
+}
+.point p i{
+  margin: 2px 12px;
+}
+.point-header {
+  display: flex;
+  justify-content: space-between;
+}
+.green-line {
+  border-left: 6px solid green;
+  height: 500px;
+}
+
+/* marquee */
+.marquee {
+  background-color: var(--backgroud-color);
+}
+.text-wrapper {
+  display: flex;
+  background: var(--green-color);
+  overflow: hidden;
+  height: 80px;
+  width: 100vw;
+  align-items: center;
+  margin-top: 120px;
+}
+.text-wrapper h3 {
+  text-align: center;
+  font-size: 21px;
+  margin: 2px 28px;
+  text-align: center;
+}
+
+/* @keyframes move{
+ 0%{
+    transform: translate(0%);
+ }
+100%{
+  transform: translate(-100%);
+}
+} */
+.project {
+  background-color: var(--backgroud-color);
+  margin-top: 0;
+}
+
+.project-btn .btn {
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 250px;
+}
+.project-btn span {
+  font-weight: 700;
+}
+.project-head {
+  font-weight: 700;
+}
+.project-text {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.work-number {
+  margin-top: 150px;
+}
+.work-img img {
+  width: 400px;
+  height: 230px;
+}
+.work-para {
+  margin-top: 150px;
+}
+.work-para i {
+  margin: 12px 12px;
+}
+.work-para span {
+  font-family: var(--font-family);
+}
+
+.work-area {
+  background-color: var(--backgroud-color);
+  margin-top: 40px;
+}
+.work-para img {
+  margin: 3px 13px;
+}
+.work-number span {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 10px 10px;
+  opacity: 0.7;
+}
+.work-number p {
+  font-size: 23px;
+  font-family: var(--font-family);
+  font-weight: 600;
+}
+.review{
+  background-color: #fff;
+  margin-top: 120px;
+}
+.review-img {
+  width: 400px;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+}
+.profile img {
+  width: 80px;
+  height: auto;
+}
+.review-para {
+  margin-left: 60px;
+  margin-top: 140px;
+}
+.review-para p {
+  font-family: var(--font-family);
+  color: var(--main-text-color);
+  font-size: 40px;
+}
+.review {
+  margin-top: 120px;
+}
+.review-para-p {
+  font-size: 350px;
+}
+.review-para i {
+  color: var(--green-color);
+}
+.review-para p {
+  font-size: 22px;
+}
+.profile-detils {
+  font-family: var(--font-family);
+  margin-left: 34px;
+}
+.profile-detils p {
+  font-size: 16px;
+}
+.name {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* pogress  */
+.skill-section {
+  margin-top: 100px;
+  background-color: var(--backgroud-color);
+}
+.skil-bar {
+  margin: 0px 4px;
+}
+.skill-text span{
+ font-size: 20px;
+}
+.skill-text p{
+  margin: 13px 0px;
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--second-text-color);
+}
+
+.pogressbar-text span {
+  letter-spacing: 1px;
+}
+.pogressbar-text p{
+  color: var(--second-text-color);
+}
+.pogressbar-text h3 {
+  font-weight: 700;
+}
+ul {
+  margin: 8px -41px;
+}
+ul li a {
+  text-decoration: none;
+}
+ul li {
+  text-decoration: none;
+  list-style: none;
+  margin-top: 9px;
+  color: var(--second-text-color);
+  font-size: 13px;
+}
+.discuss {
+  margin-top: 150px;
+  
+}
+.discuss-text span {
+  font-weight: 600;
+  font-size: 16px;
+}
+.discuss-text p {
+  font-weight: 600;
+  font-size: 12px;
+}
+.progress-bar {
+  background-color: var(--green-color);
+}
+
+.lets-discuss {
+  background-color: #fff;
+ margin-top: 80px;
+ padding:  45px 26px;
+}
+
+.lets-discuss h1 {
+  font-weight: 700;
+}
+.lets-discuss h1 i {
+  color: var(--green-color);
+}
+.number {
+  font-size: 55px;
+  font-weight: 600;
+}
+.form-control {
+  border: 0;
+  box-shadow: none;
+}
