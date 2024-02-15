@@ -1,0 +1,383 @@
+/* root  */
+:root {
+  --main-text-color: #1d1d1d;
+  --second-text-color: #696969;
+  --green-color: #55e655;
+  --backgroud-color: #f1f3f5;
+  --font-family: "Sora", sans-serif;
+  --font-weight: 400;
+}
+
+/* navigation  */
+
+.navbar {
+  background-color: var(--backgroud-color);
+}
+
+.navbar-nav li a {
+  font: var(--font-family);
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin: 1px 16px;
+  color: #000;
+}
+
+.icon-start {
+  border-left: 1px solid rgb(0, 0, 0);
+  height: 65px;
+  width: 1px;
+  margin: 0px 23px;
+  margin-top: 0;
+  opacity: 0.3;
+}
+
+.icon-end {
+  border-left: 1px solid rgb(0, 0, 0);
+  height: 65px;
+  width: 1px;
+  margin-top: 0;
+  margin: 0px 23px;
+  opacity: 0.3;
+}
+
+/* slider  */
+
+.carousel {
+  background-color: var(--backgroud-color);
+}
+.carousel-item {
+  background-color: black;
+}
+
+.carousel-item img {
+  opacity: 0.3;
+}
+
+.carousel-caption {
+  margin-bottom: 300px;
+}
+
+.carousel-item i {
+  color: #fff;
+}
+
+.line-start {
+  border-left: 1px solid rgb(241, 0, 0);
+  height: 650px;
+  width: 1px;
+}
+
+.carousel-caption i {
+  margin-right: 13px;
+}
+
+.carousel-caption span {
+  font-family: var(--font-family);
+  letter-spacing: 3px;
+  font-size: 13px;
+}
+
+.carousel-caption h1 {
+  font-weight: 750;
+  font-size: 60px;
+  margin-top: 25px;
+}
+
+.btn button {
+  font-family: var(--font-family);
+  margin-top: 27px;
+  background: var(--green-color);
+  width: 12rem;
+  height: 3rem;
+}
+
+.btn button i {
+  color: #1d1d1d;
+  margin: 4px 3px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* card area */
+.service-box{
+  margin: 90px 0px;
+}
+.card-text {
+  font-family: var(--font-family);
+}
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--backgroud-color);
+}
+.card-link {
+  color: black;
+}
+.card-img-top {
+  width: 50px;
+  height: 50px;
+}
+
+/* about area  */
+.service{
+background-color: var(--backgroud-color);
+padding: 10px 130px;
+}
+
+.about-head .btn {
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 250px;
+}
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: var(--green-color);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 3px 13px;
+}
+.about-head h2 {
+  font-weight: 700;
+  font-family: var(--font-family);
+}
+/* card  */
+.card-body i {
+  font-size: 35px;
+}
+.about-images img {
+  width: 400px;
+  height: auto;
+}
+.green-line {
+  border-left: 6px solid var(--green-color);
+  height: 90px;
+}
+.about-company{
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+.about-image-1 {
+  margin: 3px 100px;
+}
+.about-image-2 {
+  margin: -141px -21px;
+}
+
+.about-text span {
+  font-family: var(--font-family);
+  letter-spacing: 5px;
+}
+.about-text button {
+  border: 1px solid black;
+  border-radius: 23px;
+  color: black;
+  width: 180px;
+  height: 45px;
+  background: var(--backgroud-color);
+}
+.about-text button:hover {
+  background-color: var(--green-color);
+  transition: 1s ease;
+  color: #000;
+}
+.about-text h3 {
+  font-weight: 700;
+}
+.about-text p {
+  font-family: var(--font-family);
+}
+.point p {
+  margin: 3px 2px;
+  padding: 13px 2px;
+}
+.point-header {
+  display: flex;
+  justify-content: space-between;
+}
+.green-line {
+  border-left: 6px solid green;
+  height: 500px;
+}
+
+/* marquee */
+.text-wrapper {
+  display: flex;
+  background: var(--green-color);
+  overflow: hidden;
+  height: 80px;
+  width: 100vw;
+  align-items: center;
+
+ 
+}
+.text-wrapper h3 {
+  text-align: center;
+  font-size: 21px;
+  margin: 2px 28px;
+  text-align: center;
+  animation: move 1800ms linear infinite;
+}
+
+/* @keyframes move{
+ 0%{
+    transform: translate(0%);
+ }
+100%{
+  transform: translate(-100%);
+}
+} */
+.project{
+  background-color: var(--backgroud-color);
+ padding: 20px 0px;
+}
+
+.project-btn .btn {
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 250px;
+}
+.project-btn span {
+  font-weight: 700;
+}
+.project-head {
+  font-weight: 700;
+}
+.project-text {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.work-number {
+  margin-top: 150px;
+}
+.work-img img {
+  width: 400px;
+  height: 230px;
+}
+.work-para {
+  margin-top: 150px;
+}
+.work-para span {
+  font-family: var(--font-family);
+}
+
+.work-area {
+  background-color: var(--backgroud-color);
+}
+.work-para img {
+  margin: 3px 13px;
+}
+.work-number span {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 10px 10px;
+  opacity: 0.7;
+}
+.work-number p {
+  font-size: 23px;
+  font-family: var(--font-family);
+  font-weight: 600;
+}
+.review-img {
+  width: 400px;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+}
+.profile img {
+  width: 80px;
+  height: auto;
+}
+.review-para {
+  margin-left: 60px;
+}
+.review-para p {
+  font-family: var(--font-family);
+  color: var(--main-text-color);
+  font-size: 40px;
+}
+.review {
+  margin-top: 120px;
+}
+.review-para-p {
+  font-size: 230px;
+}
+.review-para i {
+  color: var(--green-color);
+}
+.review-para p {
+  font-size: 22px;
+}
+.profile-detils {
+  font-family: var(--font-family);
+  margin-left: 34px;
+}
+.profile-detils p {
+  font-size: 16px;
+}
+.name {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* pogress  */
+.skill-section {
+  margin-top: 100px;
+  background-color: var(--backgroud-color);
+}
+.skil-bar {
+  margin: 0px 4px;
+}
+.skill-text {
+  margin: 0px 67px;
+}
+.skill-text span {
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 600;
+}
+.pogressbar-text span {
+  letter-spacing: 1px;
+}
+.pogressbar-text h3 {
+  font-weight: 700;
+}
+ul {
+  margin: 8px -41px;
+}
+ul li a {
+  text-decoration: none;
+}
+ul li {
+  text-decoration: none;
+  list-style: none;
+  margin-top: 9px;
+  color: var(--second-text-color);
+}
+.discuss {
+  margin-top: 150px;
+}
+.discuss-text span {
+  font-weight: 600;
+  font-size: 23px;
+}
+.progress-bar {
+  background-color: var(--green-color);
+}
+
+.lets-discuss {
+  margin-top: 80px;
+}
+
+.lets-discuss h1 {
+  font-weight: 700;
+}
+.lets-discuss h1 i {
+  color: var(--green-color);
+}
+.number{
+  font-size: 20px;
+  font-weight: 600;
+}
