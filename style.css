@@ -268,7 +268,7 @@ html, body {
 }
 .work-para {
   margin-top: 150px;
-  cursor: pointer;
+ 
 }
 .work-para i {
   margin: 12px 12px;
@@ -276,6 +276,7 @@ html, body {
 }
 .work-para span {
   font-family: var(--font-family);
+  cursor: pointer;
 }
 
 .work-area {
@@ -377,8 +378,9 @@ html, body {
 ul {
   margin: 8px -41px;
 }
-ul li a {
+ul li {
   text-decoration: none;
+  cursor: pointer;
 }
 ul li {
   text-decoration: none;
