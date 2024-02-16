@@ -1,0 +1,60 @@
+@media screen and (max-width: 1249px) {
+  .carousel-caption {
+    margin-bottom: 30px;
+  }
+
+  .carousel-caption span {
+    font-size: 8px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 15px;
+  }
+
+  .carousel-caption .btn {
+    width: 140px;
+    height: 35px;
+  }
+
+  .card {
+    margin: 21px 2px;
+  }
+ .icon-start{
+  display: none;
+ }
+ .icon-end{
+  display: none;
+ }
+ .bi-search{
+  margin: 1px 40px;
+ } 
+.point p{
+  display: flex;
+}
+.about-images img {
+  width: 315px;
+  height: auto;
+}
+
+.work-img img {
+  width: 380px;
+  height: 230px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
